@@ -1,0 +1,16 @@
+---
+layout: case-studies
+type: case-studies
+title: Case Studies
+permalink: /case-studies/
+---
+
+{% for item in site.data.navigation %}
+{% if item.subitems and item.title == 'Case Studies' %}
+<ul>
+	{% for item in item.subitems %}
+		<li><a href="{{ item.url }}">{{ item.title }}</a></li>
+	{% endfor %}
+</ul>
+{% endif %}
+{% endfor %}

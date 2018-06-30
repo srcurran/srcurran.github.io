@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+
+<body>
+	{% include header.html %}
+	<header>
+		<h1>{{ page.title }}</h1>
+	</header>
+	<main class="case-study">
+		<article class="case-study">
+			<h2>Overview</h2>
+			<div class="project-overview">
+				<div class="overview">
+					{{ page.overview }}
+				</div>
+				<div class="meta">
+					<ul>
+						<li><h4>Role:</h4> {{ page.role }}</li>
+						<li><h4>Agency:</h4> {{ page.agency }} <a href="{{ page.agency-link }}" target="_blank">&#8224;</a></li>
+						<li><h4>Date:</h4> {{ page.date }}</li>
+						<li><h4>Client:</h4> {{ page.client }} <a href="{{ page.client-link }}" target="_blank">&#8225;</a></li>	
+					</ul>
+				</div>
+			</div>
+			<div class="challenge">
+				<h2>The Challenge</h2>
+				{{ page.challenge }}
+			</div>
+
+			<div class="solution">
+				<div class="solution-copy">
+					<h2>The Solution </h2>
+					{{ page. solution }}
+				</div>
+				<div class="solution-image">
+				{% if page.solution-image %}
+					<a data-lity href="/assets/images/{{ page.solution-image }}"><img src="/assets/images/{{ page.solution-image }}" alt="{{ page.solution-image }}"></a>
+				{% endif %}
+				</div>
+			</div>
+
+			{% if page.feature1-title %}
+				<div class="feature">
+					<div class="feature-image">
+						{% if page.feature1-image %}
+							<a data-lity href="/assets/images/{{ page.feature1-image }}"><img src="/assets/images/{{ page.feature1-image }}" lt="{{ page.feature1-image }}"></a>
+						{% endif %}
+					</div>
+					<div class="feature-copy">
+						<h5>Feature:</h5>
+						<h3>{{ page.feature1-title }}</h3>
+						{{ page.feature1-content }}
+					</div>
+				</div>
+			{% endif %}
+
+			{% if page.feature2-title %}
+				<div class="feature">
+					<div class="feature-copy">
+						<h5>Feature:</h5>
+						<h3>{{ page.feature2-title }}</h3>
+						{{ page.feature2-content }}
+					</div>
+					<div class="feature-image">
+						{% if page.feature2-image %}
+							<a data-lity href="/assets/images/{{ page.feature2-image }}"><img src="/assets/images/{{ page.feature2-image }}" lt="{{ page.feature2-image }}"></a>
+						{% endif %}
+					</div>
+				</div>
+			{% endif %}
+
+			{% if page.feature3-title %}
+				<div class="feature">
+					<div class="feature-image">
+						{% if page.feature3-image %}
+							<a data-lity href="/assets/images/{{ page.feature3-image }}"><img src="/assets/images/{{ page.feature3-image }}" lt="{{ page.feature3-image }}"></a>
+						{% endif %}
+					</div>
+					<div class="feature-copy">
+						<h5>Feature: </h5>
+						<h3>{{ page.feature3-title }}</h3>
+						{{ page.feature3-content }}
+					</div>
+				</div>
+			{% endif %}
+
+			{% if page.feature4-title %}
+				<div class="feature">
+					<div class="feature-copy">
+						<h5>Feature:</h5>
+						<h3>{{ page.feature4-title }}</h3>
+						{{ page.feature4-content }}
+					</div>
+					<div class="feature-image">
+						{% if page.feature4-image %}
+							<a data-lity href="/assets/images/{{ page.feature4-image }}"><img src="/assets/images/{{ page.feature4-image }}" lt="{{ page.feature4-image }}"></a>
+						{% endif %} 
+					</div>
+				</div>
+			{% endif %}   
+
+			{% if page.feature5-title %}
+				<div class="feature">
+					<div class="feature-image">
+						{% if page.feature5-image %}
+							<a data-lity href="/assets/images/{{ page.feature5-image }}"><img src="/assets/images/{{ page.feature5-image }}" lt="{{ page.feature5-image }}"></a>
+						{% endif %}
+					</div>
+					<div class="feature-copy">
+						<h5>Feature:</h5>
+						<h3>{{ page.feature5-title }}</h3>
+						{{ page.feature5-content }}
+					</div>
+				</div>
+			{% endif %}
+			
+			{% if page.feature6-title %}
+				<div class="feature">
+					<div class="feature-copy">
+						<h5>Feature:</h5>
+						<h3>{{ page.feature6-title }}</h3>
+						{{ page.feature6-content }}
+					</div>
+					<div class="feature-image">
+						{% if page.feature6-image %}
+							<a data-lity href="/assets/images/{{ page.feature6-image }}"><img src="/assets/images/{{ page.feature6-image }}" lt="{{ page.feature6-image }}"></a>
+						{% endif %}
+					</div>
+				</div>
+			{% endif %}
+
+
+			<div class="my-role">
+				<h2>My Role</h2>
+				{{ page.my-role }}
+			</div>
+		</article>
+	</main>
+	<aside class="related-case-studies">
+		<h2>Related Case Studies</h2>
+		<div class="inner">
+			<div class="related-case-study">
+				<a href="/case-studies/{{ page.related1-link }}">{{ page.related1-title }}</a>
+			</div>
+			<div class="related-case-study">
+				<a href="/case-studies/{{ page.related2-link }}">{{ page.related2-title }}</a>
+			</div>
+		</div>
+	</aside>
+	{% include footer.html %}
+</body>
+
+</html>

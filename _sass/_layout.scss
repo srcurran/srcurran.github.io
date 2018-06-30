@@ -1,0 +1,47 @@
+body {
+	margin: 0;
+	color: $dark;
+	font-family: $font-style;
+	font-size: 1.1em;
+	line-height: 1.6;
+	-webkit-font-smoothing: antialiased;
+}
+h1,
+h2,
+h3 {
+	font-weight: 600;
+	color: $dark;
+	font-family: $heading-font;
+	line-height: 1.5;
+	margin: 2rem 0 .5rem;
+}
+h4{margin:0}
+h5{
+	margin:0 0 -2rem;
+}
+h1 {
+	color: $main;
+	font-size: 2.5em;
+	a,
+	a:visited {
+		text-decoration: none;
+		color: $main;
+	}
+}
+h2 {
+	font-size: 1.5em;
+}
+
+a,
+a:visited {
+	color: $link-color;
+	text-decoration: none;
+	font-weight: 600;
+}
+a:hover {
+	color: $main;
+	text-decoration: underline;
+}
+ul{
+	padding-left:1rem;
+}

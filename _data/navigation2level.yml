@@ -1,0 +1,17 @@
+- title: Home
+  url: /
+- title: Case Studies
+  url: /case-studies/
+  subitems:
+  - title: Yummly
+    url: /case-studies/yummly/
+  - title: AMA
+    url: /case-studies/ama/
+  - title: LegalShield
+    url: /case-studies/legalshield/
+  - title: Resource Furniture
+    url: /case-studies/resource-furniture/
+  - title: Starbucks
+    url: /case-studies/starbucks/
+- title: About
+  url: /about

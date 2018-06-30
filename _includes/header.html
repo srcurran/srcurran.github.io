@@ -1,0 +1,20 @@
+<nav>
+	<div class="logo">
+		<a href="/">SEAN R CURRAN</a>
+	</div>
+	<div class="nav-list">
+		<ul>
+			{% for item in site.data.navigation %}
+				<li><a href="{{ item.url }}">{{ item.title }} {% if item.subitems %}&nbsp;+{%endif %}</a>
+				{% if item.subitems %}
+					<ul>
+					{% for item in item.subitems %}
+						<li><a class="sublink" href="{{ item.url }}">{{ item.title }}</a></li>
+					{% endfor %}
+					</ul>
+				{% endif %}
+				</li>
+			{% endfor %}
+		</ul>
+	</div>
+</nav>
