@@ -237,7 +237,8 @@ main.case-studies {
       list-style: none;
       text-align: center;
       background-size: cover;
-      background-position: center; }
+      background-position: center;
+      border-bottom: 1px solid #1D1425; }
       main.case-studies ul li a {
         background: rgba(0, 0, 0, 0.7);
         color: #19CCAA;
