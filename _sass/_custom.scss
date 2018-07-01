@@ -58,7 +58,7 @@ nav{
 						a{ 
 							display:inline-block;
 							width:100%;
-							padding:.5rem 1rem;
+							padding:.5rem 1rem !important;
 						}
 						a.sublink{
 							color:$main;

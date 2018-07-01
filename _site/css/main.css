@@ -78,7 +78,7 @@ nav {
   nav .logo a {
     font-weight: 700;
     font-size: 1.5rem;
-    color: #1D1425; }
+    color: #1D1415; }
   nav .logo a:hover {
     text-decoration: none;
     color: #444; }
@@ -94,7 +94,7 @@ nav {
         padding: 1rem;
         color: #444; }
       nav .nav-list ul li ul {
-        background: #1D1425;
+        background: #1D1415;
         padding: 1rem 1rem 1.5rem;
         margin: .5rem -1rem 0;
         position: absolute;
@@ -106,7 +106,7 @@ nav {
           nav .nav-list ul li ul li a {
             display: inline-block;
             width: 100%;
-            padding: .5rem 1rem; }
+            padding: .5rem 1rem !important; }
           nav .nav-list ul li ul li a.sublink {
             color: #53B5B2; }
           nav .nav-list ul li ul li a.sublink:hover {
@@ -115,11 +115,11 @@ nav {
       padding-right: 0; }
 
 header {
-  background: #1D1425;
+  background: #1D1415;
   text-align: center;
   background-size: cover;
   background-position: center;
-  border-bottom: 1px solid #1D1425; }
+  border-bottom: 1px solid #1D1415; }
   header .wrapper {
     background: rgba(0, 0, 0, 0.6);
     padding: 15vh 2rem; }
@@ -182,7 +182,7 @@ main.case-study div.feature {
     width: 35%;
     max-height: 25rem;
     overflow: hidden;
-    outline: 1px solid #1D1425; }
+    outline: 1px solid #1D1415; }
     main.case-study div.feature .feature-image a img {
       display: block;
       margin: 0;
@@ -226,7 +226,7 @@ aside.related-case-studies {
         text-align: center;
         width: 100%;
         padding: 10vh 1rem;
-        color: #1D1425; }
+        color: #1D1415; }
     aside.related-case-studies .inner div.related-case-study:last-of-type {
       background: #B55353; }
 
@@ -241,13 +241,13 @@ main.case-studies {
     display: block;
     width: 100%; }
     main.case-studies ul li {
-      background: #1D1425;
+      background: #1D1415;
       width: 100%;
       list-style: none;
       text-align: center;
       background-size: cover;
       background-position: center;
-      border-bottom: 1px solid #1D1425; }
+      border-bottom: 1px solid #1D1415; }
       main.case-studies ul li a {
         background: rgba(0, 0, 0, 0.6);
         color: #53B5B2;
@@ -257,7 +257,7 @@ main.case-studies {
         padding: 8vh 0; }
       main.case-studies ul li:hover a {
         background: #53B5B2;
-        color: #1D1425 !important; }
+        color: #1D1415 !important; }
 
 .small {
   font-size: .75em; }
@@ -267,7 +267,7 @@ main.case-studies {
 
 footer {
   padding: 2rem;
-  background: #1D1425;
+  background: #1D1415;
   width: 100%;
   clear: both; }
   footer p {
