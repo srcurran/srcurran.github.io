@@ -1,11 +1,11 @@
 ---
 layout: default
 type: homepage
-title: Hey! 👋
+title: Hello ✌️
 ---
 <div class="x-large">
 
-<h1 id="hello">Hi! 👋</h1>
+<h1 id="hello">Hello!</h1>
 
 I’m Sean, a freelance UX designer.
 
@@ -28,7 +28,7 @@ I am currently **available for projects**.
 
 Drop a line: [srcurran@gmail.com](mailto:srcurran@gmail.com){: .link} or [617.571.6723](tel:16175716723){: .link}
 </div>
-
+<!-->
 <script type="text/javascript">
 $(function() {
   var hi = ["G'day! 👋", "Bonjour! 👋", "Hej! 👋", "¡Hola! 👋", "Yo! ✌️", "Hallo! 👋"];
@@ -45,29 +45,4 @@ $(function() {
 	
 });
 </script>
-
-<!-- >
-	
-  .fadeIn(500)
-  .delay(500, checkIndex(quoteIndex,quotes.length))
-  .fadeOut(500, showNextQuote);
-	
-	
-	<script type="text/javascript">
-	var hi = ["Hey! 👋", "Hej! 👋", "¡Hola! 👋", "Bonjour! 👋", "Yo! 👋", "Hallo! 👋"];
-	var counter = 0;
-	var elem = document.getElementById("hello")
-	var inst = setInterval(change, 1000);
-	
-	function change() {
-		fadeIn(500);
-		delay(5);
-		fadeOut()
-	  elem.innerHTML = hi[counter];
-	  counter++;
-	  if (counter >= hi.length) {
-	    counter = 0;
-	  }
-		
-	}
 </script> -->
