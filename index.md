@@ -27,22 +27,5 @@ I am currently **available for projects**.
 & always up to chat about new opportunities. 
 
 Drop a line: [srcurran@gmail.com](mailto:srcurran@gmail.com){: .link} or [617.571.6723](tel:16175716723){: .link}
-</div>
-<!-->
-<script type="text/javascript">
-$(function() {
-  var hi = ["G'day! 👋", "Bonjour! 👋", "Hej! 👋", "¡Hola! 👋", "Yo! ✌️", "Hallo! 👋"];
-	var gday = ["Monring 👋", "Afternoon 👋", "Evening 🌝"]
-  var i = 0;
-	
-  setInterval(function () {
-    $("h1").fadeOut(400, function () {
-      $(this).text(hi[i % hi.length]).fadeIn(400);
-			i++;
-    });
-  }, 1500);
 
-	
-});
-</script>
-</script> -->
+</div>
