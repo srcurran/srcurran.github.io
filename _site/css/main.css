@@ -310,9 +310,8 @@ footer {
         margin: 0 !important; }
     main.case-study div.challenge,
     main.case-study div.my-role {
-      padding: 5rem 1000rem;
-      margin-top: 5rem;
-      margin-bottom: 5rem; }
+      padding: 5rem 2rem 5rem;
+      margin: 5rem -2rem; }
     main.case-study div.solution {
       margin-top: 5rem;
       margin-bottom: 5rem; }
