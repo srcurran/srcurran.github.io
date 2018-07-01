@@ -1,7 +1,7 @@
 ---
 layout: case-study
 title: LegalSheild App Design
-permalink: /case-studies/legalshield
+permalink: /case-studies/legalshield/
 
 role: Freelance UX Lead
 agency: Green Stone
