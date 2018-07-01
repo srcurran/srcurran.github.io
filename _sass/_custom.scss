@@ -81,7 +81,7 @@ header{
 	background-position:center;
 	border-bottom:1px solid $darker;
 	.wrapper{
-		background:rgba(0,0,0,.7);
+		background:$darker-transparent;
 		padding:15vh 2rem;
 	}
 }
@@ -254,7 +254,7 @@ main.case-studies{
 			background-position:center;
 			border-bottom:1px solid $darker;
 			a{
-				background: rgba(0,0,0,.7);
+				background: $darker-transparent;
 		    color: $main;
 		    font-size: 2.5em;
 		    font-weight: 700;
@@ -383,7 +383,7 @@ aside.lock{
 		p{
 			font-size:1rem;
 			padding:1rem 2rem;
-			background: rgba(0,0,0,.3);
+			background: $dark-transparent;
 			color:$white;
 			width:fit-content;
 			margin:0 auto;
@@ -399,7 +399,7 @@ aside.lock{
 			padding:.5rem;
 			text-align:center;
 			&:focus{
-				outline: 4px solid rgba(0,0,0,.2);
+				outline: 4px solid $dark-transparent;
 			}
 		}
 	}
