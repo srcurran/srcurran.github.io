@@ -73,7 +73,7 @@ nav {
   flex-wrap: no-wrap;
   justify-content: space-between;
   align-items: center;
-  background: #f0f0f0;
+  background: rgba(255, 255, 255, 0.9);
   border-bottom: 1px solid rgba(0, 0, 0, 0.3); }
   nav .logo a {
     font-weight: 700;

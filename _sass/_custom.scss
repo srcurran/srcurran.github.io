@@ -17,9 +17,8 @@ nav{
 	flex-wrap:no-wrap;
 	justify-content:space-between;
 	align-items:center;
-	background:$lightgrey;
+	background:$light-transparent;
 	border-bottom:1px solid $dark-transparent;
-	
 	.logo a{
 		font-weight: 700;
 		font-size: 1.5rem;
