@@ -1,11 +1,12 @@
 html, body{
 	height:100%;
+	width:100%;
+	overflow-x:hidden;
 }
 body{
 	display:flex;
 	flex-direction: column;
 	padding-top:4.3rem;
-	overflow-x:hidden;
 }
 nav{
 	height:4.3rem;
