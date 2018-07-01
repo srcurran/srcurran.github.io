@@ -11,6 +11,8 @@ date: 2015
 client: Starbucks
 client-link: https://www.starbucks.com/
 
+background-image: /assets/images/bg-sbx.png
+
 overview: <p>This is one of those projects that sticks with you. The project began with the client pushing to see more out-there explorations and never slowed down from there. Every step of the project was exciting as it was challenging. </p><p>Unfortunately, this project does not have a happy ending, mid-way through the client decided to no long work with the design team. The UX portion of the project continued for several more months until it was comopleted. However, I am unclear as to the current status of the project (I assume the project was shelved, but when we began the project the estimated completion was 2018 so one day I may wake up surprised).</p><p>That being said, I am very proud of the work created and have decided that it is a story worth telling.</p>
 
 challenge: <p>Starbucks is a magical brand to work on, the brand loyality is through the roof & the internal teams push to innovate and change. They came to Sapient in 2014 with a responsive site and mobile app that many considered best in class. The ask was to create a website that was years ahead of any other competitor while still driving to stores, online sales and encouraging more loyalty.</p>

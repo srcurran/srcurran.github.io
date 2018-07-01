@@ -10,6 +10,9 @@ date: 2017
 client: LegalShield
 client-link: http://legalshield.com/
 
+background-image: /assets/images/bg-ls.png
+
+
 overview: <p>It’s 1982 - A brand new IBM iSeries is put online & this massive mainframe computer is going to solve all your problems. It’s 2017 - The IBM mainframe is still running the show. Updates take the system offline for a night, new members get batch uploaded daily, new features are nearly impossible to implement, old features require deep system knowledge. </p>
 
 challenge: <p>LegalShield is a subscription-based legal services provider. It has been around for over 40 years, and the technology that the platform was built on had started to show its age. Our task was to re-design the experience on a new platform, from the ground up. This project was a “redesign” but felt much more like a new product launch.</p>

@@ -9,7 +9,7 @@ permalink: /case-studies/
 {% if item.subitems and item.title == 'Case Studies' %}
 <ul>
 	{% for item in item.subitems %}
-		<li><a href="{{ item.url }}">{{ item.title }}</a></li>
+		<li {% if item.background-image %}style="background-image:url('{{ item.background-image }}');"{% endif %}><a href="{{ item.url }}">{{ item.title }}</a></li>
 	{% endfor %}
 </ul>
 {% endif %}

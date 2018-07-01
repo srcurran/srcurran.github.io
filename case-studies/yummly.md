@@ -11,6 +11,9 @@ date: 2012
 client: Yummly
 client-link: https://www.yummly.com/
 
+background-image: /assets/images/bg-yummly.png
+
+
 overview: <p>Yummly had an incredible algorithm for diving deep into a wealth of aggregated recipe content. If you needed to find the best gluten-free low-carb chocolate chip cookies, Yummly had you covered. If you were lactose intolerant and never wanted to see  a recipe with dairy in it, you could set it up and be on your way. However, if you were not a power-user & just looking for inspiration for what to eat you were out of luck.</p>
 
 challenge: <p>Yummly’s initial design was barely more than a proof of concept that included a minimal (barren) homepage & a robust (overwhelming) set of search filters. Our goal was to design a web application that worked for a wide set of users.</p>

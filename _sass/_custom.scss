@@ -70,7 +70,12 @@ nav{
 header{
 	background:$darker;
 	text-align:center;
-	padding:15vh 2rem;
+	background-size:cover;
+	background-position:center;
+	.wrapper{
+		background:rgba(0,0,0,.7);
+		padding:15vh 2rem;
+	}
 }
 
 main{
@@ -232,11 +237,13 @@ main.case-studies{
 		width:100%;
 		li{
 			background:$darker;
-			padding:2px;
 			width:100%;
 			list-style:none;
 			text-align:center;
+			background-size:cover;
+			background-position:center;
 			a{
+				background: rgba(0,0,0,.7);
 		    color: $main;
 		    font-size: 2.5em;
 		    font-weight: 600;
@@ -245,8 +252,9 @@ main.case-studies{
 				padding:8vh 0;
 			}
 			&:hover{
-				background:$main;
+
 				a{
+					background: $main;
 					color:$darker !important;
 				}
 			}
@@ -283,6 +291,8 @@ footer{
 		flex-wrap:wrap;
 		justify-content:center;
 		padding-bottom:5rem;
+		padding-left:10px;
+		padding-right:10px;
 	}
 	main.homepage{
 		padding: 5rem 2rem;
@@ -291,6 +301,7 @@ footer{
 		}
 	}
 	main.case-study{
+		padding-top:2rem;
 		.project-overview{
 			flex-wrap:wrap;
 			> * {
@@ -300,15 +311,26 @@ footer{
 		}
 		div.challenge,
 		div.my-role{
-			padding:10rem 1000rem;
+			padding:5rem 1000rem;
+			margin-top:5rem;
+			margin-bottom:5rem;
+		}
+		div.solution{
+			margin-top:5rem;
+			margin-bottom:5rem;
+			.solution-image{
+				width:100%;
+			}
 		}
 		div.feature{
 			flex-wrap:wrap;
+			margin-top:5rem;
+			margin-bottom:5rem;
 			.feature-copy{
 				order:-1;
 				width:100% !important;
 			}
-			img{
+			.feature-image{
 				width:100% !important;
 			}
 		}

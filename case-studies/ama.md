@@ -11,6 +11,9 @@ date: 2016
 client: American Medical Association
 client-link: http://ama-assn.org/
 
+background-image: /assets/images/bg-ama.png
+
+
 overview: <p>The American Medical Association is a largest organization of physicians in the united states. With that they have a lot of content on their website. Our goal was to create a clean, simple, expansible website that could accommodate a wide-variety of content for physicians in various stages of their career (medical student, resident, physician, practice manager).</p>
 
 challenge: <p>We had several goals that all needed to be accounted for&#58; Increase member registration, allow fast access to key content areas (continuing medical education, fellowship database, CPT information), create usable paths to deep-dive content (Meeting highlights form the LGBTQ Membership Group’s annual meeting), promote new content from JAMA & their news wire.</p>

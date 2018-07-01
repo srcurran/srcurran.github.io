@@ -10,6 +10,9 @@ date: 2018
 client: Resource Furniture
 client-link: http://www.resourcefurniture.com/
 
+background-image: /assets/images/bg-rf.png
+
+
 overview: <p>Resource Furniture, a longtime leader in high-quality, multifunctional furniture. They are seeking a rebrand and redesign of their website to further establish their leadership and convey itself as an avenue for high-end interior design and an aspirational lifestyle. </p>
 
 challenge: <p>Resource Furniture sells incredibly thoughtful & designed products that push the limits of what a murphy bed can do. Their site however, does not match the experience of their products or showrooms. The goal was to make the experience of the site more streamlined, visual and more accurately reflect the brand.</p>
