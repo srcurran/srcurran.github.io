@@ -5,6 +5,9 @@ body{
 	display:flex;
 	flex-direction: column;
 }
+nav.no-nav{
+	padding:1rem 2rem;
+}
 nav{
 	padding:2rem;
 	display:flex;
@@ -355,6 +358,18 @@ footer{
 			div.related-case-study{
 				width:100%;
 			}
+		}
+	}
+}
+
+main.lock{
+	text-align:center;
+	#password-form{
+		input{
+			font-size:2rem;
+			border:2px solid $link-color;
+			padding:.5rem;
+			text-align:center;
 		}
 	}
 }

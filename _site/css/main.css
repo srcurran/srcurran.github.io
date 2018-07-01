@@ -60,6 +60,9 @@ body {
   display: flex;
   flex-direction: column; }
 
+nav.no-nav {
+  padding: 1rem 2rem; }
+
 nav {
   padding: 2rem;
   display: flex;
@@ -320,3 +323,10 @@ footer {
     flex-wrap: wrap; }
     aside.related-case-studies .inner div.related-case-study {
       width: 100%; } }
+main.lock {
+  text-align: center; }
+  main.lock #password-form input {
+    font-size: 2rem;
+    border: 2px solid #425469;
+    padding: .5rem;
+    text-align: center; }
