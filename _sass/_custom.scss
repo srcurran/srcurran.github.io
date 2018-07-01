@@ -5,9 +5,6 @@ body{
 	display:flex;
 	flex-direction: column;
 }
-nav.no-nav{
-	padding:1rem 2rem;
-}
 nav{
 	padding:2rem;
 	display:flex;
@@ -18,13 +15,13 @@ nav{
 	border-bottom:1px solid $light;
 	
 	.logo a{
-		font-weight:800;
+		font-weight: 700;
 		font-size: 1.5rem;
-		color:$dark;
+		color:$darker;
 	}
 	.logo a:hover{
 		text-decoration:none;
-		color:$main;
+		color:$dark;
 	}
 	
 	.nav-list{
@@ -41,6 +38,7 @@ nav{
 				}
 				a{ 
 					padding:1rem;
+					color: $dark;
 				}
 				ul{
 					background: $main;
@@ -112,7 +110,7 @@ main.about{
 			display:inline-block;
 			&.tier-one{
 				font-size:1.25rem;
-				font-weight:600;
+				font-weight: 700;
 			}
 			li{
 				display:inline-block;
@@ -209,10 +207,11 @@ aside.related-case-studies{
 		justify-content: space-between;
 		div.related-case-study{
 			width:50%;
-			background:$link-color;
+			background:$secondary;
 			margin:2rem;
 			p{
 				a{
+					font-family:$heading-font;
 					font-size:1.5rem;
 					color:$lightgrey;
 					display:block;
@@ -220,12 +219,12 @@ aside.related-case-studies{
 					text-align:center;
 					width:100%;
 					padding:10vh 1rem;
-					color:$lightgrey;
+					color:$darker;
 				}
 			}
 		}
 		div.related-case-study:last-of-type{
-			background:$sublink;
+			background:$tertiary;
 		}
 	}
 }
@@ -252,13 +251,11 @@ main.case-studies{
 				background: rgba(0,0,0,.7);
 		    color: $main;
 		    font-size: 2.5em;
-		    font-weight: 600;
-		    font-family: "Muli", sans-serif;
+		    font-weight: 700;
 				display:block;
 				padding:8vh 0;
 			}
 			&:hover{
-
 				a{
 					background: $main;
 					color:$darker !important;
@@ -361,14 +358,23 @@ footer{
 	}
 }
 
-main.lock{
+aside.lock{
+	background: $main;
+	padding:7vh 2rem;
 	text-align:center;
+	h2{
+		color:$lightgrey
+	}
 	#password-form{
 		input{
 			font-size:2rem;
-			border:2px solid $link-color;
+			border:2px solid $secondary;
 			padding:.5rem;
 			text-align:center;
+		}
+		.password-form-error{
+			color:$light;
+			font-style:italic;
 		}
 	}
 }

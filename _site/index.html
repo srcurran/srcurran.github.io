@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="/css/main.css">
 	<link rel="stylesheet" href="/css/lity.css" type="text/css" media="screen">
 	
-	<link href="https://fonts.googleapis.com/css?family=Muli|Open+Sans:400,600,800" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto:400,700" rel="stylesheet">
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="/assets/javascript/lity.js" type="text/javascript" charset="utf-8"></script>	
@@ -24,19 +24,74 @@
 	<div class="nav-list">
 	</div>
 </nav>
-	<main class="lock">
-		<article>
-			<h1>Enter Site Password</h1>
-			<div id="password-form-error"></div>
-			<form id="password-form" action="/lock/" method="get" accept-charset="utf-8">
-				<p><input type="text" name="password" value="" id="password"></p>
-			</form>
-		</article>
+	<aside class="lock">
+		<h2>Enter Site Password</h2>
+		<p>To view full site, enter the portfolio password.</p>
+		<div class="password-form-error"></div>
+		<form id="password-form" action="/lock/" method="get" accept-charset="utf-8">
+			<p><input type="text" name="password" value="" id="password"></p>
+		</form>
+	</aside>
+	<main>
+		
+				
+		
+				
+		
+				
+		
+				
+		
+				
+					<div class="x-large">
+
+  <h1>Hello!</h1>
+
+  <p>I’m Sean, a freelance UX designer.</p>
+
+  <p>I live in Portland.</p>
+
+  <p>(Sorry… Portland, Maine.)</p>
+
+  <p>I started my career as a front-end developer.</p>
+
+  <p>But quickly moved over to the world of UX design &amp; research (the front-end skills come in handy).</p>
+
+  <p>I cut my teeth out in SF were I worked with a bunch of awesome shops over 7+ years.</p>
+
+  <p>After a few years &amp; several full-time agency jobs, I decided to go freelance. Couldn’t be happier with the decision. It lets me focus on the work, it also lets me focus on my not-work.</p>
+
+  <p>In 2015 I moved from SF to Chicago. In 2017 I moved from Chicago to Portland. I primarily work remotely, but I always like an excuse to travel.</p>
+
+  <p>I am currently <strong>available for projects</strong>.<br />
+&amp; always up to chat about new opportunities.</p>
+
+  <p>Drop a line: <a href="mailto:srcurran@gmail.com" class="link">srcurran@gmail.com</a> or <a href="tel:16175716723" class="link">617.571.6723</a></p>
+
+</div>
+
+				
+		
+				
+		
+				
+		
+				
+		
+				
+		
+				
+		
+				
+		
+				
+		
 	</main>
   <footer>
 	<p><a href="mailto:srcurran@gmail.com" class="link">srcurran@gmail.com</a> | <a href="tel:16175716723" class="link">617.571.6723</a></p>
 </footer>
 </body>
+
 
 <script src="/assets/javascript/sha1.js" type="text/javascript" charset="utf-8"></script>
 <script type="text/javascript">
@@ -47,7 +102,7 @@ $(function(){
 			window.location.href = $('#password').val()+".html";
 			return false;
 		}else{
-			$("#password-form-error").html("Incorrect password. Please email <a href='mailto:srcurran@gmail.com' target='_blank'>srcurran@gmail.com<a/> for access.");
+			$(".password-form-error").html("Incorrect password. Please email <a href='mailto:srcurran@gmail.com' target='_blank'>srcurran@gmail.com<a/> for access.");
 			return false;
 		}
 	});

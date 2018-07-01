@@ -1,20 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 {% include head.html %}
 
 <body>
 	{% include header-nonav.html %}
-	<main class="lock">
-		<article>
-			<h1>Enter Site Password</h1>
-			<div id="password-form-error"></div>
-			<form id="password-form" action="/lock/" method="get" accept-charset="utf-8">
-				<p><input type="text" name="password" value="" id="password"></p>
-			</form>
-		</article>
+	<aside class="lock">
+		<h2>Enter Site Password</h2>
+		<p>To view full site, enter the portfolio password.</p>
+		<div class="password-form-error"></div>
+		<form id="password-form" action="/lock/" method="get" accept-charset="utf-8">
+			<p><input type="text" name="password" value="" id="password"></p>
+		</form>
+	</aside>
+	<main>
+		{% for page in site.html_pages %}
+				{% if page.type == "homepage" %}
+					{{ page.content }}
+				{% endif %}
+		{% endfor %}
 	</main>
   {% include footer.html %}
 </body>
+
 
 <script src="/assets/javascript/sha1.js" type="text/javascript" charset="utf-8"></script>
 <script type="text/javascript">
@@ -25,7 +32,7 @@ $(function(){
 			window.location.href = $('#password').val()+".html";
 			return false;
 		}else{
-			$("#password-form-error").html("Incorrect password. Please email <a href='mailto:srcurran@gmail.com' target='_blank'>srcurran@gmail.com<a/> for access.");
+			$(".password-form-error").html("Incorrect password. Please email <a href='mailto:srcurran@gmail.com' target='_blank'>srcurran@gmail.com<a/> for access.");
 			return false;
 		}
 	});
