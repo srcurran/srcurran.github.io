@@ -18,7 +18,7 @@
 <script type="text/javascript">
 $(function(){
 	$('#password-form').submit(function(e){
-		if(sha1($('#password').val()) == "ccf100e5943097d24073db57fef388fcbf76a50c"){ //portfolio2018
+		if(sha1($('#password').val()) == "ccf100e5943097d24073db57fef388fcbf76a50c"){
 			window.location.href = $('#password').val()+".html";
 			return false;
 		}else{
