@@ -29,7 +29,7 @@
 		<p>To view full site, enter the portfolio password.</p>
 		<div class="password-form-error"></div>
 		<form id="password-form" action="/lock/" method="get" accept-charset="utf-8">
-			<p><input type="text" name="password" value="" id="password"></p>
+			<p><input type="text" name="password" value="" id="password" autocomplete="off"></p>
 		</form>
 	</aside>
 	<main>
@@ -102,7 +102,7 @@ $(function(){
 			window.location.href = $('#password').val()+".html";
 			return false;
 		}else{
-			$(".password-form-error").html("Incorrect password. Please email <a href='mailto:srcurran@gmail.com' target='_blank'>srcurran@gmail.com<a/> for access.");
+			$(".password-form-error").html("<p>Incorrect password. Please email <a href='mailto:srcurran@gmail.com' target='_blank'>srcurran@gmail.com</a> for access.</p>");
 			return false;
 		}
 	});

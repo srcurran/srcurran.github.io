@@ -1,22 +1,17 @@
 $font-style: 'Roboto', sans-serif;
 $heading-font: 'Roboto Mono', monospace;
 
-$main: #19CCAA;
-$secondary: #425469;
-$tertiary: #7191B7;
+$tertiary: #53B5B2;
+$main: #53B5B2;
+$secondary: #B55353; 
+$tertiary: #D2A928;
 
-$main: #CB99A1;
-$secondary:#9C7C81; 
-$tertiary: #9C646D;
-
-$main: #D2A928;
-$secondary: #8EB453; 
-$tertiary: #22C6D4;
-
+$white: #fff;
 $lightgrey: #f0f0f0;
-$light: #E7EDF4;
+$light: rgba(255,255,255,.8);
 $dark: #444;
 $darker: #1D1425;
+$dark-transparent: rgba(0,0,0,.3);
 
 *,
 *::before,

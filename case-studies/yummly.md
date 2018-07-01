@@ -18,7 +18,7 @@ overview: <p>Yummly had an incredible algorithm for diving deep into a wealth of
 challenge: <p>Yummly’s initial design was barely more than a proof of concept that included a minimal (barren) homepage & a robust (overwhelming) set of search filters. Our goal was to design a web application that worked for a wide set of users.</p>
 
 solution: <p>Working from the ground up to create a web-application that was simple, yet powerful. We based our decisions on user research and created an experience that would work for multiple audiences. We also created designs that worked just as well for low content situations (recipe without a photo, new user profile) as well as it worked for the best-case examples.</p>
-solution-image: yummly-solution.png
+solution-image: yummly-solution.jpg
 
 feature1-title: Homepage Concepting
 feature1-content: <p>The homepage was the initial touch-point for both first-time & returning users & we had to create a page that did a lot of work. We created sketches of several different approaches - “Recommendation Engine” grouped liked concepts in a Netflix style (kale & garlic side-dishes), “Friend Feed” populated the homepage with content liked by users you follow (or power users for those new to the experience), “Food Trend” was an approach that put a weekly focus on an in-season ingredient (rhubarb) or a specific event (Fourth of July BBQ).</p>
