@@ -13,19 +13,11 @@ Email: <a href="mailto:srcurran@gmail.com" class="link">srcurran@gmail.com</a>
 
 Phone: <a href="tel:16175716723" class="link">617.571.6723</a>
 
- 
+Internet: <a target="_blank" href="https://linkedin.com/in/srcurran">LinkedIn</a> • <a target="_blank" href="https://workingnotworking.com/srcurran">Working Not Working</a> • <a target="_blank" href="https://twitter.com/srcurran">Twitter</a>.
+
 ## List Party 🎉
 
-### Social Links
-<div class="inline-list">
-<ul>
-	<li><a target="_blank" href="https://linkedin.com/in/srcurran">LinkedIn</a></li>
-	<li><a target="_blank" href="https://workingnotworking.com/srcurran">Working Not Working</a></li>
-	<li><a target="_blank" href="https://twitter.com/srcurran">Twitter</a></li>
-</ul>
-</div>
-
-### Agencies & Businesses I have worked with:
+### Agencies I have worked at:
 
 <div class="inline-list">
 <ul class="tier-one">

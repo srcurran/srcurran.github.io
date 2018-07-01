@@ -111,6 +111,8 @@ nav {
             color: #53B5B2; }
           nav .nav-list ul li ul li a.sublink:hover {
             color: #B55353; }
+    nav .nav-list ul li:last-of-type a {
+      padding-right: 0; }
 
 header {
   background: #1D1425;
@@ -137,8 +139,8 @@ main.about .inline-list ul {
   padding: 0;
   display: inline-block; }
   main.about .inline-list ul.tier-one {
-    font-size: 1.25rem;
-    font-weight: 700; }
+    font-size: 1.5rem;
+    font-weight: 400; }
   main.about .inline-list ul li {
     display: inline-block; }
   main.about .inline-list ul li::after {
@@ -199,6 +201,9 @@ main.case-study div.my-role {
   background: #f0f0f0;
   margin: 0 -1000rem -10rem;
   padding: 10rem 1010rem; }
+
+main.about h2 {
+  margin-top: 5rem; }
 
 aside.related-case-studies {
   padding: 2rem; }
@@ -283,6 +288,8 @@ footer {
     nav > * {
       width: 100%;
       text-align: center; }
+    nav ul li ul {
+      text-align: left; }
     nav li a {
       padding: .5rem !important; }
 

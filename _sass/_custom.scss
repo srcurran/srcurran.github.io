@@ -40,7 +40,7 @@ nav{
 					ul{
 						display:block;
 					}
-				}
+				}	
 				a{ 
 					padding:1rem;
 					color: $dark;
@@ -68,6 +68,9 @@ nav{
 						}
 					}
 				}
+			}
+			li:last-of-type a{
+				padding-right:0;
 			}
 		}
 	}
@@ -106,8 +109,8 @@ main.about{
 			padding:0;
 			display:inline-block;
 			&.tier-one{
-				font-size:1.25rem;
-				font-weight: 700;
+				font-size:1.5rem;
+				font-weight: 400;
 			}
 			li{
 				display:inline-block;
@@ -189,6 +192,12 @@ main.case-study{
 		background:$lightgrey;
 		margin: 0 -1000rem -10rem;
 		padding: 10rem 1010rem;
+	}
+}
+
+main.about{
+	h2{
+		margin-top:5rem;
 	}
 }
 
@@ -297,6 +306,9 @@ footer{
 		> *{
 			width:100%;
 			text-align:center;
+		}
+		ul li ul{
+			text-align:left;
 		}
 		li a{
 			padding:.5rem !important;
