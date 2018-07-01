@@ -1,7 +1,7 @@
 ---
 layout: case-study
 title: Resource Furniture Site Design
-permalink: /case-studies/resource-furniture
+permalink: /case-studies/resource-furniture/index.html
 
 role: Freelance UX Lead
 agency: ABC Design Lab

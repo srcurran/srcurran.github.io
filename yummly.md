@@ -2,7 +2,7 @@
 layout: case-study
 title: Yummly Web-App Design
 category: case-study
-permalink: /case-studies/yummly
+permalink: /case-studies/yummly/index.html
 
 role: UX Lead
 agency: Cuban Council
