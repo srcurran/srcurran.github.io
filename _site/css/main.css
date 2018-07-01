@@ -124,8 +124,7 @@ main {
 
 main.homepage h1, main.homepage p {
   max-width: 1000px;
-  margin-bottom: 100px;
-  color: #1D1425; }
+  margin-bottom: 100px; }
 
 main.homepage-alt p {
   max-width: 1000px;

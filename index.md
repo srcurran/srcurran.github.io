@@ -4,9 +4,10 @@ type: homepage
 title: Hello ✌️
 permalink: portfolio2018.html
 ---
+
 <div class="x-large">
 
-<h1 id="hello">Hello!</h1>
+<h1>Hello!</h1>
 
 I’m Sean, a freelance UX designer.
 
