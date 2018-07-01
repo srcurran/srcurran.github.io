@@ -210,16 +210,15 @@ aside.related-case-studies {
       width: 50%;
       background: #425469;
       margin: 2rem; }
-      aside.related-case-studies .inner div.related-case-study p {
+      aside.related-case-studies .inner div.related-case-study p a {
         font-size: 1.5rem;
         color: #f0f0f0;
         display: block;
         margin: 0 auto;
         text-align: center;
         width: 100%;
-        padding: 10vh 1rem; }
-        aside.related-case-studies .inner div.related-case-study p a {
-          color: #f0f0f0; }
+        padding: 10vh 1rem;
+        color: #f0f0f0; }
     aside.related-case-studies .inner div.related-case-study:last-of-type {
       background: #7191B7; }
 
