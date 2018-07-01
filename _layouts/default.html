@@ -3,7 +3,11 @@
 {% include head.html %}
 
 <body>
-	{% include header.html %}
+	{% if page.no-nav %}
+		{% include header-nonav.html %}
+	{% else %}
+		{% include header.html %}
+	{% endif %}
 	<main{% if page.type %} class="{{ page.type }}"{% endif %}>
 		<article>
 			{{ content }}

@@ -12,7 +12,7 @@
 			<p><input type="text" name="password" value="" id="password" autocomplete="off"></p>
 		</form>
 	</aside>
-	<main>
+	<main class="homepage">
 		{% for page in site.html_pages %}
 				{% if page.type == "homepage" %}
 					{{ page.content }}
