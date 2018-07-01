@@ -3,13 +3,13 @@
 {% include head.html %}
 
 <body>
-	{% include header.html %}
-	<main{% if page.type %} class="{{ page.type }}"{% endif %}>
+	{% include header-nonav.html %}
+	<main class="lock">
 		<article>
-			<h2>Enter Site Password</h2>
-			<form id="password-form" action="{{ page.permalink }}" method="get" accept-charset="utf-8">
+			<h1>Enter Site Password</h1>
+			<div id="password-form-error"></div>
+			<form id="password-form" action="/lock/" method="get" accept-charset="utf-8">
 				<p><input type="text" name="password" value="" id="password"></p>
-				<p><input type="submit" value="Continue &rarr;"></p>
 			</form>
 		</article>
 	</main>
@@ -18,8 +18,26 @@
 <script type="text/javascript">
 $(function(){
 	$('#password-form').submit(function(e){
-		if($("#password").val() == ;
+		if(sha1($('#password').val()) == "ccf100e5943097d24073db57fef388fcbf76a50c"){ //portfolio2018
+			window.location.href = $('#password').val()+".html";
+			return false;
+		}else{
+			$("#password-form-error").html("Incorrect password. Please email <a href='mailto:srcurran@gmail.com' target='_blank'>srcurran@gmail.com<a/> for access.");
+			return false;
+		}
 	});
 });
 </script>
 </html>
+
+<style type="text/css" media="screen">
+	main.lock{
+		text-align:center;
+	}
+	main.lock #password-form input{
+		font-size:2rem;
+		border:4px solid $link-color;
+		padding:.5rem;
+		text-align:center;
+	}
+</style>

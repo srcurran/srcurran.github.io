@@ -2,6 +2,7 @@
 layout: default
 type: homepage
 title: Hello ✌️
+permalink: portfolio2018.html
 ---
 <div class="x-large">
 
