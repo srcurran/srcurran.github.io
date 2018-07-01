@@ -60,7 +60,8 @@ html, body {
 body {
   display: flex;
   flex-direction: column;
-  padding-top: 4.3rem; }
+  padding-top: 4.3rem;
+  overflow-x: hidden; }
 
 nav {
   height: 4.3rem;
