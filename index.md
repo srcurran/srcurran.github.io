@@ -19,7 +19,7 @@ I started my career as a front-end developer.
 
 But quickly moved over to the world of UX design & research (the front-end skills come in handy).
 
-I cut my teeth out in SF were I worked with a bunch of awesome shops over 7+ years.
+I cut my teeth out in SF where I worked with a bunch of awesome shops over 7+ years.
 
 After a few years & several full-time agency jobs, I decided to go freelance. Couldn't be happier with the decision. It lets me focus on the work, it also lets me focus on my not-work.
 
