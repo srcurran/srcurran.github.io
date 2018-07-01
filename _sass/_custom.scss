@@ -98,15 +98,6 @@ main.homepage{
 		margin-bottom:100px;
 	}
 }
-main.homepage-alt{
-	p{
-		max-width:1000px;
-		margin-bottom:100px;
-	}
-	p:first-of-type{
-		font-size:5rem;
-	}
-}
 
 main.about{
 	.inline-list{
@@ -302,19 +293,28 @@ footer{
 		height:6rem;
 		flex-wrap:wrap;
 		justify-content:center;
+		padding:.5rem;
 		> *{
 			width:100%;
 			text-align:center;
 		}
+		li a{
+			padding:.5rem !important;
+		}
 	}
+	main{
+		padding-top:2rem;}
 	main.homepage{
-		padding: 5rem 2rem;
+		h1{
+			margin-bottom:2rem;
+			font-size:2.5rem;
+		}
 		p{
-			font-size:2rem;
+			font-size:1.25rem;
+			margin-bottom:2rem;
 		}
 	}
 	main.case-study{
-		padding-top:2rem;
 		padding-bottom:0;
 		.project-overview{
 			flex-wrap:wrap;
