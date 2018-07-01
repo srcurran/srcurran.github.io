@@ -24,7 +24,7 @@ github_username:  srcurran
 
 # Build settings
 markdown: kramdown
-include: ['_pages']
+include: ['_pages'delivered]
 sass: 
   sass_dir: _sass
 theme: 

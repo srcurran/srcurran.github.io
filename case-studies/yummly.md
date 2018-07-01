@@ -45,7 +45,7 @@ my-role: <p>I was the sole/lead UX designer. I worked closely with the leadershi
 related1-title: Resource Furniture Site Design
 related1-link: resource-furniture
 
-related2-title: Starbucks Site Design
-related2-link: starbucks
+related2-title: AMA Site Design
+related2-link: ama
 
 ---

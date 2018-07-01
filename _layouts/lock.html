@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+
+<body>
+	{% include header.html %}
+	<main{% if page.type %} class="{{ page.type }}"{% endif %}>
+		<article>
+			<h2>Enter Site Password</h2>
+			<form id="password-form" action="{{ page.permalink }}" method="get" accept-charset="utf-8">
+				<p><input type="text" name="password" value="" id="password"></p>
+				<p><input type="submit" value="Continue &rarr;"></p>
+			</form>
+		</article>
+	</main>
+  {% include footer.html %}
+</body>
+<script type="text/javascript">
+$(function(){
+	$('#password-form').submit(function(e){
+		if($("#password").val() == ;
+	});
+});
+</script>
+</html>

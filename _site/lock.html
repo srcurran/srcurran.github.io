@@ -54,40 +54,24 @@
 		</ul>
 	</div>
 </nav>
-	<main class="homepage">
+	<main>
 		<article>
-			<div class="x-large">
-
-  <h1 id="hello">Hello!</h1>
-
-  <p>I’m Sean, a freelance UX designer.</p>
-
-  <p>I live in Portland.</p>
-
-  <p>(Sorry… Portland, Maine.)</p>
-
-  <p>I started my career as a front-end developer.</p>
-
-  <p>But quickly moved over to the world of UX design &amp; research (the front-end skills come in handy).</p>
-
-  <p>I cut my teeth out in SF were I worked with a bunch of awesome shops over 7+ years.</p>
-
-  <p>After a few years &amp; several full-time agency jobs, I decided to go freelance. Couldn’t be happier with the decision. It lets me focus on the work, it also lets me focus on my not-work.</p>
-
-  <p>In 2015 I moved from SF to Chicago. In 2017 I moved from Chicago to Portland. I primarily work remotely, but I always like an excuse to travel.</p>
-
-  <p>I am currently <strong>available for projects</strong>.<br />
-&amp; always up to chat about new opportunities.</p>
-
-  <p>Drop a line: <a href="mailto:srcurran@gmail.com" class="link">srcurran@gmail.com</a> or <a href="tel:16175716723" class="link">617.571.6723</a></p>
-
-</div>
-
+			<h2>Enter Site Password</h2>
+			<form id="password-form" action="/lock" method="get" accept-charset="utf-8">
+				<p><input type="text" name="password" value="" id="password"></p>
+				<p><input type="submit" value="Continue &rarr;"></p>
+			</form>
 		</article>
 	</main>
   <footer>
 	<p><a href="mailto:srcurran@gmail.com" class="link">srcurran@gmail.com</a> | <a href="tel:16175716723" class="link">617.571.6723</a></p>
 </footer>
 </body>
-
+<script type="text/javascript">
+$(function(){
+	$('#password-form').submit(function(e){
+		if($("#password").val() == ;
+	});
+});
+</script>
 </html>

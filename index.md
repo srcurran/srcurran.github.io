@@ -13,7 +13,7 @@ I live in Portland.
 
 (Sorry… Portland, Maine.)
 
-I started my carreer as a front-end developer.
+I started my career as a front-end developer.
 
 But quickly moved over to the world of UX design & research (the front-end skills come in handy).
 

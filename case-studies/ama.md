@@ -15,13 +15,13 @@ background-image: /assets/images/bg-ama.png
 
 overview: <p>The American Medical Association is a largest organization of physicians in the united states. With that they have a lot of content on their website. Our goal was to create a clean, simple, expansible website that could accommodate a wide-variety of content for physicians in various stages of their career (medical student, resident, physician, practice manager).</p>
 
-challenge: <p>We had several goals that all needed to be accounted for&#58; Increase member registration, allow fast access to key content areas (continuing medical education, fellowship database, CPT information), create usable paths to deep-dive content (Meeting highlights form the LGBTQ Membership Group’s annual meeting), promote new content from JAMA & their news wire.</p>
+challenge: <p>We had several goals that all needed to be accounted for&#58; Increase member registration, allow fast access to key content areas (continuing medical education, fellowship database, CPT information), create usable paths to deep-dive content (Meeting highlights from the LGBTQ Membership Group’s annual meeting), promote new content from JAMA & their news wire.</p>
 
-solution: <p>This project was a classic website redesign & re-org for a large-scale organization. Over the five-month project we focused on creating a solution that would work as well on the day it launches as it will in several yeras. A focus was put on creating a strong heirarchy and a flexible design system.</p>
+solution: <p>This project was a classic website redesign & re-org for a large-scale organization. Over the five-month project we focused on creating a solution that would work as well on the day it launches as it will in several years. A focus was put on creating a strong hierarchy and a flexible design system.</p>
 solution-image: ama-solution.jpg
 
 feature1-title: Design Research
-feature1-content: <p>Across several phases of the project we worked with both stakeholders and users to deepen our understanding & validate our findings. The project began with a large group exercise where we discovered both the key goals of the different users of our site as well as the key content from each section (and where it falls within the flows of various user's needs). As the project was on-going, we would often use design excersises (including card sorting and rapid prototyping) to ensure we were finding the best solutions. Nearing the end of the UX phase we conducted several usability studies in a variety of markets to test, improva and validate our designs.</p>
+feature1-content: <p>Across several phases of the project we worked with both stakeholders and users to deepen our understanding & validate our findings. The project began with a large group exercise where we discovered both the key goals of the different users of our site as well as the key content from each section (and where it falls within the flows of various user's needs). As the project was on-going, we would often use design exercises (including card sorting and rapid prototyping) to ensure we were finding the best solutions. Nearing the end of the UX phase we conducted several usability studies in a variety of markets to test, improve and validate our designs.</p>
 feature1-image: ama-feature-research.jpg
 
 feature2-title: Information Architecture

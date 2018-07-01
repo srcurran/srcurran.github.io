@@ -42,7 +42,7 @@ feature5-title:
 feature5-content:
 feature5-image: 
 
-my-role: <p>I was brought in to with the ask to attempt to bring the largest impact in a short time frame. As the sole UX designer, I ran the project in a fast-paced, yet collaboartive, manner. I worked closely with the development team as well as various stakeholders to ensure all designs were realistic on a tight budget and timeline. </p>
+my-role: <p>I was brought in to with the ask to attempt to bring the largest impact in a short time frame. As the sole UX designer, I ran the project in a fast-paced, yet collabortive, manner. I worked closely with the development team as well as various stakeholders to ensure all designs were realistic on a tight budget and timeline. </p>
 
 related1-title: LegalShield App Design
 related1-link: legalshield

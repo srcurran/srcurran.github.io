@@ -209,14 +209,17 @@ aside.related-case-studies{
 			width:50%;
 			background:$link-color;
 			margin:2rem;
-			a{
-				font-size:2rem;
+			p{
+				font-size:1.5rem;
 				color:$lightgrey;
 				display:block;
 				margin: 0 auto;
 				text-align:center;
 				width:100%;
-				padding:10vh 0;
+				padding:10vh 1rem;
+				a{
+					color:$lightgrey;
+				}
 			}
 		}
 		div.related-case-study:last-of-type{
