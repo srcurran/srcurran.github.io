@@ -1,7 +1,6 @@
 ---
 layout: case-study
 title: Starbucks Site Design
-category: case-study
 permalink: /case-studies/starbucks/index.html
 
 role: Freelance UX Lead

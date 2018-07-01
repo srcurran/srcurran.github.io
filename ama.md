@@ -1,7 +1,6 @@
 ---
 layout: case-study
 title: AMA Site Design
-type: case-study
 permalink: /case-studies/ama/index.html
 
 role: Freelance UX Lead
