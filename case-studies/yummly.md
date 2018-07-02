@@ -74,8 +74,8 @@ my-role: "<p>I was the sole UX designer. I worked closely with our design team a
   the leadership team at Yummly. Working with the Yummly team was very collaborative,
   often including sketches that took over walls that became more and more refined
   as the project moved forward.</p>"
-related1-title: LegalShield App Design
+related1-title: LegalShield
 related1-link: legalshield
-related2-title: AMA Site Design
+related2-title: AMA
 related2-link: ama
 ---
