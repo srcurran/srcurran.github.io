@@ -66,9 +66,9 @@ feature5-image: ama-feature-component.png
 my-role: "<p>As lead designer, I worked closely with the content strategy team, additional
   UX designers & visual design to ensure that the system was built to support the
   design. </p>"
-related1-title: Yummly Web-App Design
+related1-title: Yummly
 related1-link: yummly
-related2-title: Resource Furniture Site Design
+related2-title: Resource Furniture
 related2-link: resource-furniture
 ---
 
