@@ -56,9 +56,9 @@ my-role: "<p>I was brought in with the stated goal of bringing the largest impac
   yet collaborative, manner. I worked closely with both the design and development
   team as well as various stakeholders to ensure all designs were realistic on a tight
   budget and timeline. </p>"
-related1-title: LegalShield App Design
-related1-link: legalshield
-related2-title: Yummly Web-App Design
-related2-link: yummly
+related1-title: AMA
+related1-link: ama
+related2-title: Starbucks
+related2-link: starbucks
 ---
 
