@@ -63,15 +63,17 @@ feature3-image: yummly-feature-yumbutton.png
 feature4-title: Onboarding
 feature4-content: "<p>Yummly is a powerful application &amp; becomes more powerful
   the more you interacted with the platform. To help facilitate we created a light-touch
-  onboarding that began to move your preferences upon registration.</p>"
+  onboarding that began to populate your preferences upon registration.</p><p>Understanding
+  that onboarding doesn't end after the first session, micro interactions were designed
+  to increase engagement, time on site and enjoyment</p>"
 feature4-image: yummly-feature-onboarding.png
 feature5-title: 
 feature5-content: 
 feature5-image: 
-my-role: "<p>I was the sole/lead UX designer. I worked closely with the leadership
-  team at Yummly to ensure that we were tracking each step of the way. Working with
-  the Yummly team was very collaborative, often including sketches that took over
-  walls that became more and more refined as the project moved forward.</p>"
+my-role: "<p>I was the sole UX designer. I worked closely with our design team and
+  the leadership team at Yummly. Working with the Yummly team was very collaborative,
+  often including sketches that took over walls that became more and more refined
+  as the project moved forward.</p>"
 related1-title: Resource Furniture Site Design
 related1-link: resource-furniture
 related2-title: AMA Site Design
