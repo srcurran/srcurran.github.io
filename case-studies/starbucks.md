@@ -77,8 +77,8 @@ my-role: "<p>I started on the project shortly after the discovery/research phase
   a producer, CD, UXD and UX lead (myself). I managed the day-to-day and presentations
   of the UX portion of the project, collaborating frequently with the creative team
   &  junior designers. </p>"
-related1-title: Resource Furniture Site Design
+related1-title: Resource Furniture
 related1-link: resource-furniture
-related2-title: LegalShield App Design
+related2-title: LegalShield
 related2-link: legalshield
 ---
