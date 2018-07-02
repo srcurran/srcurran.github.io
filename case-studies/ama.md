@@ -68,7 +68,7 @@ my-role: "<p>As lead designer, I worked closely with the content strategy team, 
   design. </p>"
 related1-title: Yummly Web-App Design
 related1-link: yummly
-related2-title: Starbucks Site Design
-related2-link: starbucks
+related2-title: Resource Furniture Site Design
+related2-link: resource-furniture
 ---
 
