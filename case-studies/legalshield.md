@@ -72,6 +72,6 @@ my-role: "<p>I ran the UX portion of the project, working closely with the produ
   Oklahoma & NYC. We utilized a wide-variety of applications to facilitate design.</p>"
 related1-title: Starbucks Site Design
 related1-link: starbucks
-related2-title: Resource Furniture Site Design
-related2-link: resource-furniture
+related2-title: Yummly Web-App Design
+related2-link: yummly
 ---
