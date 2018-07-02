@@ -70,8 +70,8 @@ my-role: "<p>I ran the UX portion of the project, working closely with the produ
   the project. I worked with a mid-level UX designer & ensured a high-quality final
   product. </p><p>Our team was 100% remote with key players in Maine, Colorado, Washington,
   Oklahoma & NYC. We utilized a wide-variety of applications to facilitate design.</p>"
-related1-title: Starbucks Site Design
+related1-title: Starbucks
 related1-link: starbucks
-related2-title: Yummly Web-App Design
+related2-title: Yummly
 related2-link: yummly
 ---
