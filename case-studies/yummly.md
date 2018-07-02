@@ -53,13 +53,12 @@ feature2-image: yummly-feature-mindsets.png
 feature3-title: Yum
 feature3-content: "<p>Each recipe on the previous site had no less than 5 interaction
   points - A &ldquo;Save&rdquo; button, an &ldquo;I’m Interested&rdquo; button, a
-  rating, Facebook “like” & email. Many of these buttons were vague, had user-intention
-  overlap (what case determines when I&#58; save, like or click I’m interested) &
-  many had no easy way to surface previously “I’m interested” recipes. Our solution
-  was to combine as many features as possible into one branded experience. Clicking
-  “Yum” would save the recipe to your profile, it would signal to others that you
-  are interested in the recipe, it would populate on the Facebook social graph & add
-  importance/weighting to the individual recipe.</p>"
+  rating, Facebook “like” & email. These buttons were vague with no clear distinction
+  (should I click save, like, or, I’m interested?) and once interacted with, there
+  was no easy way to find again.</p><p> Our solution was to combine as many features
+  as possible into one branded experience. Clicking “Yum” would save the recipe to
+  your profile, it would signal to others that you are interested in the recipe, it
+  would populate on the Facebook social graph & increment the yum counter on the recipe.</p>"
 feature3-image: yummly-feature-yumbutton.png
 feature4-title: Onboarding
 feature4-content: "<p>Yummly is a powerful application &amp; becomes more powerful
