@@ -78,4 +78,5 @@ related1-title: LegalShield
 related1-link: legalshield
 related2-title: AMA
 related2-link: ama
+final-design-image: yummly-final.png
 ---

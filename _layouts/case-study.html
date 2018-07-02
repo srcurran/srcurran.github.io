@@ -46,7 +46,7 @@
 				<div class="feature">
 					<div class="feature-image">
 						{% if page.feature1-image %}
-							<a data-lity href="/assets/images/{{ page.feature1-image }}"><img src="/assets/images/{{ page.feature1-image }}" lt="{{ page.feature1-image }}"></a>
+							<a data-lity href="/assets/images/{{ page.feature1-image }}"><img src="/assets/images/{{ page.feature1-image }}" alt="{{ page.feature1-image }}"></a>
 						{% endif %}
 					</div>
 					<div class="feature-copy">
@@ -66,7 +66,7 @@
 					</div>
 					<div class="feature-image">
 						{% if page.feature2-image %}
-							<a data-lity href="/assets/images/{{ page.feature2-image }}"><img src="/assets/images/{{ page.feature2-image }}" lt="{{ page.feature2-image }}"></a>
+							<a data-lity href="/assets/images/{{ page.feature2-image }}"><img src="/assets/images/{{ page.feature2-image }}" alt="{{ page.feature2-image }}"></a>
 						{% endif %}
 					</div>
 				</div>
@@ -76,7 +76,7 @@
 				<div class="feature">
 					<div class="feature-image">
 						{% if page.feature3-image %}
-							<a data-lity href="/assets/images/{{ page.feature3-image }}"><img src="/assets/images/{{ page.feature3-image }}" lt="{{ page.feature3-image }}"></a>
+							<a data-lity href="/assets/images/{{ page.feature3-image }}"><img src="/assets/images/{{ page.feature3-image }}" alt="{{ page.feature3-image }}"></a>
 						{% endif %}
 					</div>
 					<div class="feature-copy">
@@ -96,7 +96,7 @@
 					</div>
 					<div class="feature-image">
 						{% if page.feature4-image %}
-							<a data-lity href="/assets/images/{{ page.feature4-image }}"><img src="/assets/images/{{ page.feature4-image }}" lt="{{ page.feature4-image }}"></a>
+							<a data-lity href="/assets/images/{{ page.feature4-image }}"><img src="/assets/images/{{ page.feature4-image }}" alt="{{ page.feature4-image }}"></a>
 						{% endif %} 
 					</div>
 				</div>
@@ -106,7 +106,7 @@
 				<div class="feature">
 					<div class="feature-image">
 						{% if page.feature5-image %}
-							<a data-lity href="/assets/images/{{ page.feature5-image }}"><img src="/assets/images/{{ page.feature5-image }}" lt="{{ page.feature5-image }}"></a>
+							<a data-lity href="/assets/images/{{ page.feature5-image }}"><img src="/assets/images/{{ page.feature5-image }}" alt="{{ page.feature5-image }}"></a>
 						{% endif %}
 					</div>
 					<div class="feature-copy">
@@ -126,17 +126,27 @@
 					</div>
 					<div class="feature-image">
 						{% if page.feature6-image %}
-							<a data-lity href="/assets/images/{{ page.feature6-image }}"><img src="/assets/images/{{ page.feature6-image }}" lt="{{ page.feature6-image }}"></a>
+							<a data-lity href="/assets/images/{{ page.feature6-image }}"><img src="/assets/images/{{ page.feature6-image }}" alt="{{ page.feature6-image }}"></a>
 						{% endif %}
 					</div>
 				</div>
 			{% endif %}
-
+			
+			{% if page.final-design-image %}
+				<div class="final-design">
+					<h2>Final Design</h2>
+					<img src="/assets/images/{{ page.final-design-image }}" alt="{{ page.final-design-image}}">
+					<p class="small">Not designed by Sean Curran</p>
+				</div>
+			{% endif %}
 
 			<div class="my-role">
 				<h2>My Role</h2>
 				{{ page.my-role }}
 			</div>
+
+			
+			
 		</article>
 	</main>
 	<aside class="related-case-studies">

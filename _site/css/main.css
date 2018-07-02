@@ -341,6 +341,10 @@ footer {
         width: 100% !important; }
       main.case-study div.solution img {
         width: 100% !important; }
+    main.case-study div.final-design {
+      padding: 5rem 0; }
+      main.case-study div.final-design img {
+        width: 100%; }
 
   aside.related-case-studies .inner {
     flex-wrap: wrap; }
