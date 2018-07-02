@@ -1,18 +1,18 @@
 - title: Case Studies
   url: /case-studies/
   subitems:
-  - title: Yummly
-    url: /case-studies/yummly/index.html 
-    background-image: /assets/images/bg-yummly.png
-  - title: AMA
-    url: /case-studies/ama/index.html 
-    background-image: /assets/images/bg-ama.png
   - title: Starbucks
     url: /case-studies/starbucks/index.html
     background-image: /assets/images/bg-sbx.png
   - title: LegalShield
     url: /case-studies/legalshield/index.html
     background-image: /assets/images/bg-ls.png
+  - title: Yummly
+    url: /case-studies/yummly/index.html 
+    background-image: /assets/images/bg-yummly.png
+  - title: AMA
+    url: /case-studies/ama/index.html 
+    background-image: /assets/images/bg-ama.png
   - title: Resource Furniture
     url: /case-studies/resource-furniture/index.html
     background-image: /assets/images/bg-rf.png
