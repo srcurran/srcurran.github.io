@@ -1,12 +1,13 @@
 ---
 layout: default
 title: About
-permalink: /about/
+permalink: "/about/"
 type: about
 ---
 # What you might want to know
 
 ## How to Find Me
+
 Location: Portland, Maine
 
 Email: <a href="mailto:srcurran@gmail.com" class="link">srcurran@gmail.com</a>
@@ -21,67 +22,68 @@ Internet: <a target="_blank" href="https://linkedin.com/in/srcurran">LinkedIn</a
 
 <div class="inline-list">
 <ul class="tier-one">
-	<li>Green Stone</li>
-	<li>Sapient</li>
-	<li>Huge</li>
-	<li>AKQA</li>
-	<li>Cuban Council</li>
+<li>Green Stone</li>
+<li>Sapient</li>
+<li>Huge</li>
+<li>AKQA</li>
+<li>Cuban Council</li>
 </ul>
 <ul>
-	<li>ABC Design Lab</li>
-	<li>The Savage Bureau</li>
-	<li>VSA Partners</li>
-	<li>IA Collaborative</li>
-	<li>One Design Company</li>
-	<li>Fluid</li>
-	<li>Tile</li>
-	<li>EVB</li>
-	<li>Spring Studio</li>
-	<li>17FEET</li>
-	<li>Astro Studios</li>
-	<li>Havas</li>
-	<li>Kadium</li>
-	<li>Corey McPherson Nash</li>
+<li>ABC Design Lab</li>
+<li>The Savage Bureau</li>
+<li>VSA Partners</li>
+<li>IA Collaborative</li>
+<li>One Design Company</li>
+<li>Fluid</li>
+<li>Tile</li>
+<li>EVB</li>
+<li>Spring Studio</li>
+<li>17FEET</li>
+<li>Astro Studios</li>
+<li>Havas</li>
+<li>Kadium</li>
+<li>Corey McPherson Nash</li>
 </ul>
 </div>
 
-
 ### Brands I have worked with:
+
 <div class="inline-list">
-- Topcon Positioning
-- Resource Furniture
-- Superfly Productions
-- California Milk Board
-- 4A's
-- LegalShield; 
-- IBM
-- AMA
-- Marvin
-- Abbvie
-- Fedex
-- Museum of Science and Industry
-- Starbucks
-- Tile
-- 9Lives
-- Hanna Andersson
-- Union Bank
-- Universal Studios Hollywood
-- TheFind
-- Rabobank
-- Learnist
-- Mineralist
-- Zynga
-- Levis
-- Yummly
-- Gap
-- Cisco
-- Xbox
-- Nike 
-- Visa
-- Target
-- California Museum
-- Method Home
-- Genetech
-- Harvard Faculty Club
-- Museum of Science, Boston
-</div>
+
+* Topcon Positioning
+* Resource Furniture
+* Superfly Productions
+* California Milk Board
+* 4A's
+* LegalShield;
+* IBM
+* AMA
+* Marvin
+* Abbvie
+* Fedex
+* Museum of Science and Industry
+* Starbucks
+* Tile
+* 9Lives
+* Hanna Andersson
+* Union Bank
+* Universal Studios Hollywood
+* TheFind
+* Rabobank
+* Learnist
+* Mineralist
+* Zynga
+* Levis
+* Yummly
+* Gap
+* Cisco
+* Xbox
+* Nike
+* Visa
+* Target
+* California Museum
+* Method Home
+* Genentech
+* Harvard Faculty Club
+* Museum of Science, Boston
+  </div>
