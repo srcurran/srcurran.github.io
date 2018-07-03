@@ -197,6 +197,16 @@ main.case-study div.solution {
     width: 40%; }
     main.case-study div.solution .solution-image img {
       width: 100%; }
+main.case-study div.final-design {
+  margin-bottom: 5rem; }
+  main.case-study div.final-design .img-wrapper {
+    border: 1px solid #f0f0f0;
+    max-height: 60rem;
+    overflow: hidden;
+    margin-top: 2rem; }
+    main.case-study div.final-design .img-wrapper img {
+      width: 100%;
+      display: block; }
 main.case-study div.my-role {
   background: #f0f0f0;
   margin: 0 -1000rem -10rem;
@@ -341,10 +351,6 @@ footer {
         width: 100% !important; }
       main.case-study div.solution img {
         width: 100% !important; }
-    main.case-study div.final-design {
-      padding: 5rem 0; }
-      main.case-study div.final-design img {
-        width: 100%; }
 
   aside.related-case-studies .inner {
     flex-wrap: wrap; }

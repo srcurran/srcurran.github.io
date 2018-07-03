@@ -70,5 +70,6 @@ related1-title: Yummly
 related1-link: yummly
 related2-title: Resource Furniture
 related2-link: resource-furniture
+final-design-image: ama-final-design.png
 ---
 

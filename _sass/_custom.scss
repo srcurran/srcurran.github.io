@@ -188,6 +188,19 @@ main.case-study{
 			}
 		}
 	}
+	div.final-design{
+		margin-bottom:5rem;
+		.img-wrapper{
+			img{
+				width:100%;
+				display:block;
+			}
+			border:1px solid $lightgrey;
+			max-height:60rem;
+			overflow:hidden;
+			margin-top:2rem;
+		}
+	}
 	div.my-role{
 		background:$lightgrey;
 		margin: 0 -1000rem -10rem;
@@ -381,12 +394,7 @@ footer{
 				width:100% !important;
 			}
 		}
-		div.final-design{
-			padding:5rem 0;
-			img{
-				width:100%;
-			}
-		}
+
 	}
 	aside.related-case-studies{
 		.inner{

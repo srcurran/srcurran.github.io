@@ -60,5 +60,6 @@ related1-title: AMA
 related1-link: ama
 related2-title: Starbucks
 related2-link: starbucks
+final-design-image: rf-final-design.png
 ---
 

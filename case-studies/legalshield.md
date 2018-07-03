@@ -74,4 +74,5 @@ related1-title: Starbucks
 related1-link: starbucks
 related2-title: Yummly
 related2-link: yummly
+final-design-image: legalshield-final-design.png
 ---
