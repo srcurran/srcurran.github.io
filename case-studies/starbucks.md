@@ -37,7 +37,7 @@ feature1-content: <p>With most redesigns of this scale, you expect to be pushed 
   & horizontally through the site. </p>
 feature1-image: sbx-feature-exploration.jpg
 feature2-title: Stacker Page Navigation
-feature2-content: "<p>The Stakcer navigation model was slightly tamer than some of
+feature2-content: "<p>The Stacker navigation model was slightly tamer than some of
   our initial sketches. It allowed users to navigate traditionally through a site
   using links and the back button. However, it also contained the ability to navigate
   horizontally across sections (from coffee to tea, or from dark roast to light roast)
