@@ -24,7 +24,7 @@ After several full-time agency jobs, I decided to go full-time freelance. Couldn
 
 In 2015 I moved from SF to Chicago. In 2017 I moved from Chicago to Portland. I primarily work remotely, but I always like an excuse to travel.
 
-I am currently **available for projects**. & always up to chat about new opportunities.
+I am currently **available for projects** & always up to chat about new opportunities.
 
 Drop a line: [srcurran@gmail.com](mailto:srcurran@gmail.com){: .link} or [617.571.6723](tel:16175716723){: .link}
 
