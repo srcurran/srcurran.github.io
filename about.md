@@ -86,4 +86,3 @@ Internet: <a target="_blank" href="https://linkedin.com/in/srcurran">LinkedIn</a
 * Genentech
 * Harvard Faculty Club
 * Museum of Science, Boston
-  </div>
