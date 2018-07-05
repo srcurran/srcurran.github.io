@@ -44,6 +44,8 @@ nav{
 				a{ 
 					padding:1rem;
 					color: $dark;
+					&:hover{
+					}
 				}
 				ul{
 					background: $darker;
@@ -61,10 +63,10 @@ nav{
 							padding:.5rem 1rem !important;
 						}
 						a.sublink{
-							color:$main;
+							color:$white;
 						}
 						a.sublink:hover{
-							color:$secondary;
+							color:$tertiary;
 						}
 					}
 				}
