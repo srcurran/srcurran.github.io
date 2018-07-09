@@ -240,17 +240,17 @@ aside.related-case-studies {
     aside.related-case-studies .inner div.related-case-study:last-of-type {
       background: #B55353; }
 
-main.case-studies {
+.case-studies {
   width: 100%;
   max-width: 100%;
   padding: 0;
   margin: 0; }
-  main.case-studies ul {
+  .case-studies ul {
     margin: 0;
     padding: 0;
     display: block;
     width: 100%; }
-    main.case-studies ul li {
+    .case-studies ul li {
       background: #1D1415;
       width: 100%;
       list-style: none;
@@ -258,14 +258,14 @@ main.case-studies {
       background-size: cover;
       background-position: center;
       border-bottom: 1px solid #1D1415; }
-      main.case-studies ul li a {
+      .case-studies ul li a {
         background: rgba(0, 0, 0, 0.6);
         color: #53B5B2;
         font-size: 2.5em;
         font-weight: 700;
         display: block;
         padding: 8vh 0; }
-      main.case-studies ul li:hover a {
+      .case-studies ul li:hover a {
         background: #53B5B2;
         color: #1D1415 !important; }
 

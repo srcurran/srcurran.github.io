@@ -29,3 +29,4 @@ I am currently **available for projects** & always up to chat about new opportun
 Drop a line: [srcurran@gmail.com](mailto:srcurran@gmail.com){: .link} or [617.571.6723](tel:16175716723){: .link}
 
 </div>
+
